@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Studio Lebeault Limoges - L'Expert de la Photo Argentique</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav">
+      <a class="logo-nav" href="/index.html"
+        ><img src="/Images/logo_phiphi.svg" alt="Logo du Studio Lebeault"
+      /></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <div class="containernav">
+        <ul>
+          <li>
+            <a class="links" href="/index.html">ACCUEIL</a>
+          </li>
+          <li>
+            <a class="links" href="/histoire.html">L'HISTOIRE</a>
+          </li>
+          <li>
+            <a class="links" href="/services.html">LES SERVICES</a>
+          </li>
+          <li>
+            <a class="links" href="/contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="container">
+        <h1 class="m-version">STUDIO LEBEAULT</h1>
+        <h2 class="m-version">
+          L'expert de la photo <span style="color: #d54c39">argentique</span>
+        </h2>
+        <div class="hero-text-container">
+          <img
+            class="heroborderleft"
+            src="Images/element_1.svg"
+            alt="border image"
+          />
+          <img
+            class="heroborderright"
+            src="Images/element_2.svg"
+            alt="border image"
+          />
+          <p class="headline">
+            <span style="color: white"> TRANSFORMEZ VOS SOUVENIRS EN</span>
+            <span style="color: #d54c39">RÉALITÉ</span>
+          </p>
+          <hr class="mobile-line" />
+          <p class="subtitle">
+            <span style="color: white"
+              >VOS PELLICULES ARGENTIQUE DÉVELOPPÉES
+              <span style="color: #d54c39">SUR PLACE EN 24H</span>
+            </span>
+          </p>
+          <h2 id="mobile-address" class="mobile-stuff">
+            Limoges - Place Jourdan
+          </h2>
+          <button id="mobile-button" class="mobile-stuff">
+            <a href="/contact.html">SE RENDRE AU STUDIO</a>
+          </button>
+        </div>
+        <div class="logocontainer">
+          <img
+            class="brandlogoartisan"
+            src="/Images/maitreartisan_logo.png"
+            alt="Logo Agfa"
+          />
+          <img
+            class="brandlogo"
+            src="/Images/AGFA_Photo_Logo.svg"
+            alt="Logo Agfa"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="about">
+      <div class="aboutcontainer">
+        <div class="circlecontainer">
+          <div class="circle">
+            <div class="smallcircle"></div>
+          </div>
+          <img src="/Images/photo_phiphi.png" alt="Portrait du Photographe" />
+        </div>
+
+        <div class="text-button-container">
+          <h1 id="aboutheading">
+            A <span style="color: #d54c39">VOTRE</span> SERVICE DEPUIS PLUS DE
+            <span style="color: #d54c39">100 ANS</span>
+          </h1>
+          <p class="about-text">
+            Besoin de développer vos pellicules argentiques où vos numériques ?
+            Besoin de photos d’identités ? Envie d’une séance portrait ? Envie
+            d’immortaliser votre mariage ?<br /><br />
+            Quelque soit votre souhait, je suis ravis d’en discuter avec vous et
+            de vous proposer un service à la hauteur de vos attente, ce qui
+            demeure avant tout ma priorité. N’attendez plus, venez découvrir
+            l’histoire de votre Studio, et prenez connaissances des services à
+            votre disposition :
+          </p>
+          <div class="buttonwrapper">
+            <div>
+              <a
+                id="historybutton"
+                href="/histoire.html"
+                role="button"
+                class="buttonsection"
+                ><span class="buttontext">L'histoire</span>
+              </a>
+            </div>
+            <div>
+              <a href="/services.html" role="button" class="buttonsection"
+                ><span class="buttontext">Vos services</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services-->
+
+    <div class="services">
+      <hr class="line" />
+      <h2>Services</h2>
+    </div>
+
+    <div class="servicesbackground">
+      <div class="servicescontainer">
+        <button
+          id="firstbutton"
+          onmouseover="firstbuttonhover()"
+          onmouseout="firstbuttonhoverout()"
+          class="button button1"
+          type="button"
+        >
+          <span
+            ><span
+              >TIRAGE <br />
+              <span class="secondword" style="color: #d54c39">ARGENTIQUE</span>
+            </span></span
+          >
+
+          <img class="hoverimage" src="/Images/peliculle_icone.png" alt="" />
+          <a class="anchor-button" href="/services.html#labo-argentique">
+            <p class="hovertext">
+              Vos pellicules argentiques développées sur place, en
+              <strong>24h</strong>. <br />
+              <br />
+              <strong>Vos souvenirs sont d'une valeur inestimable</strong>,
+              n'attendez plus pour les tenir entre vos mains.
+            </p>
+            <hr class="hoverline" />
+          </a>
+        </button>
+        <button
+          id="secondbutton"
+          onmouseover="secondbuttonhover()"
+          onmouseout="secondbuttonhoverout()"
+          class="button button2"
+          type="button"
+        >
+          <span
+            ><span
+              >PHOTOS <br />
+              <span class="secondword">D'IDENTÉS</span>
+            </span></span
+          >
+          <img
+            class="hoverimage"
+            src="/Images/photoidentite_icone.png"
+            alt=""
+          />
+          <a class="anchor-button" href="/services.html#photo-identite">
+            <p class="hovertext">
+              Vos photos d'identités aux normes, ne vous les faites plus
+              refuser.<br />
+              <br />
+              <strong>Tirages dans la journée</strong>.
+            </p>
+          </a>
+          <hr class="hoverline" />
+        </button>
+        <button
+          id="thirdbutton"
+          onmouseover="thirdbuttonhover()"
+          onmouseout="thirdbuttonhoverout()"
+          class="button button3"
+          type="button"
+        >
+          <span
+            ><span
+              >PHOTOS <br />
+              <span class="secondword">FAMILIALES</span>
+            </span></span
+          >
+
+          <img
+            class="hoverimage"
+            src="/Images/photofamiliales_icone.png"
+            alt=""
+          />
+          <a class="anchor-button" href="/services.html#portrait">
+            <p class="hovertext anchor-3">
+              Capturez un instant unique avec votre famille.
+            </p>
+            <hr class="hoverline" />
+          </a>
+        </button>
+      </div>
+      <div class="sbutton-container">
+        <a class="sbutton" href="/services.html">TOUS LES SERVICES</a>
+      </div>
+    </div>
+
+    <!-- Gallerie-->
+
+    <div class="galerie">
+      <h2>Galerie</h2>
+      <hr class="galerieline" />
+    </div>
+    <div class="carousel-container">
+      <div class="carousel-inner">
+        <div class="track">
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_2.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_3.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_4.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_5.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_6.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_7.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_8.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_9.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_10.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_11.png" alt="" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <img src="/Images/StudioLebault_Galerie_12.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="prev">
+        <img src="/Images/bouton_gauche.png" alt="" />
+      </button>
+      <button class="next">
+        <img src="/Images/bouton_droite.png" alt="" />
+      </button>
+    </div>
+
+    <!-- Accordion (Only On Mobiles)-->
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-item-header">VOTRE STUDIO</div>
+        <div class="accordion-item-body">
+          <div class="accordion-item-body-content about-grid">
+            <img src="/Images/image1_contact.png" alt="" />
+            <div class="mobile-text-button-container">
+              <h3>
+                A <span class="newred">VOTRE</span> SERVICE DEPUIS PLUS DE
+                <span class="newred">100 ANS</span>
+              </h3>
+              <p>
+                Besoin de développer vos pellicules argentiques où vos
+                numériques ? Besoin de photos d’identités ? Envie d’une séance
+                portrait ? Envie d’immortaliser votre mariage ? <br />
+                <br />Quelque soit votre souhait, je suis ravis d’en discuter
+                avec vous et de vous proposer un service à la hauteur de vos
+                attente, ce qui demeure avant tout ma priorité. N’attendez plus,
+                venez découvrir l’histoire de votre Studio, et prenez
+                connaissances des services à votre disposition :
+              </p>
+              <div class="buttonwrapper-mobile">
+                <div>
+                  <a href="" role="button" class="buttonsection-mobile"
+                    ><span class="buttontext-mobile">HISTOIRE</span>
+                  </a>
+                </div>
+                <div>
+                  <a href="" role="button" class="buttonsection-mobile"
+                    ><span class="buttontext-mobile">SERVICES</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-item-header">SERVICES</div>
+        <div class="accordion-item-body">
+          <div class="accordion-item-body-content">
+            <div class="accordion-card-container">
+              <div class="mobile-card m-img1">
+                <h3>
+                  TIRAGE <br />
+                  <span class="newred">ARGENTIQUE</span>
+                </h3>
+                <p class="text-pellicules">
+                  Vos pellicules dévelopées sur place, en moins de 24h .
+                </p>
+                <div class="button-mobile-wrapper-card">
+                  <button class="mobile-card-button">
+                    <a href="">DÉVELOPPER MES PELLICULES</a>
+                  </button>
+                </div>
+              </div>
+              <div class="mobile-card m-img2">
+                <h3>
+                  PHOTOS <br />
+                  <span class="newred">D'IDENTITÉS</span>
+                </h3>
+                <p>
+                  Vos photos d'identités aux normes, tirages dans la journée.
+                </p>
+                <div class="button-mobile-wrapper-card">
+                  <button id="identité-button" class="mobile-card-button">
+                    <a href="">SE RENDRE AU STUDIO</a>
+                  </button>
+                </div>
+              </div>
+              <div class="mobile-card m-img3">
+                <h3>
+                  PHOTOS <br />
+                  <span class="newred">FAMILIALES</span>
+                </h3>
+                <p>
+                  Capturez un instant unique avec votre famille et vos amis.
+                </p>
+                <div class="button-mobile-wrapper-card">
+                  <button id="famille-button" class="mobile-card-button">
+                    <a href="">RÉSERVER MA SÉANCE</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-service-button-container">
+            <button class="card-services-button">
+              <a href="">VOIR TOUS LES SERVICES</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Témoignages-->
+
+    <section class="testimonials">
+      <div class="tcirclecontainer">
+        <div class="tcircle"></div>
+      </div>
+
+      <div class="testimonials-container">
+        <img class="quote1" src="/Images/quote1.png" alt="" />
+        <h1>Votre avis est précieux</h1>
+        <div id="testimonial1" class="textcontainer active">
+          <p>
+            L'incroyable caverne d'Ali baba ! Un lieu empreint de l'histoire de
+            la photographie ! Servi par un personnage atypique et fort
+            sympathique ! Vous avez des travaux spéciaux à réaliser ? Il sera là
+            !
+          </p>
+          <br />
+          <cite>Jean-Michel Ladrat</cite>
+        </div>
+        <div id="testimonial2" class="textcontainer">
+          <p>
+            Photographe efficace, accueillant et arrangeant. Tarif tout à fait
+            correct pour les photos d'identité. Je recommande !
+          </p>
+          <br />
+          <cite>Amandine Jeanton</cite>
+        </div>
+        <div id="testimonial3" class="textcontainer">
+          <p>
+            Très belles photos d'identités, photographe très accueillant et très
+            sympathique ! Photos parfaites , n'allez pas dans les photomatons
+            sous peines de voir vos photos refusées, aller plutôt chez le
+            photographe, ça en vaut la peine.
+          </p>
+          <br />
+          <cite>Martine Blanchet</cite>
+        </div>
+        <div id="testimonial4" class="textcontainer">
+          <p>
+            L'un des derniers photographes faisant encore sur limoges des tirage
+            argentiques, et avec un accueil chaleureux !
+          </p>
+          <br />
+          <cite>Info News</cite>
+        </div>
+        <div id="testimonial5" class="textcontainer">
+          <p>
+            Photographe toujours au top et à l'écoute de ses clients depuis
+            plusieurs générations, je recommande.
+          </p>
+          <br />
+          <cite>Nathalie Gillot</cite>
+        </div>
+        <div id="testimonial6" class="textcontainer">
+          <p>Il reste le seul à Limoges à faire les photos à l'ancienne.</p>
+          <br />
+          <cite>Pierre Larcher</cite>
+        </div>
+        <div class="button-container">
+          <button id="tbutton1" class="tbutton"></button>
+          <button id="tbutton2" class="tbutton"></button>
+          <button id="tbutton3" class="tbutton"></button>
+          <button id="tbutton4" class="tbutton"></button>
+          <button id="tbutton5" class="tbutton"></button>
+          <button id="tbutton6" class="tbutton"></button>
+        </div>
+      </div>
+      <img class="quote2" src="/Images/quote2.png" alt="" />
+    </section>
+
+    <!-- Contact -->
+
+    <!-- Mobile Only -->
+
+    <div class="contact">
+      <hr class="contactline" />
+      <h2>Contact</h2>
+    </div>
+
+    <section class="contactsection">
+      <div class="mobile-contact">
+        <h2>CONTACTEZ MOI</h2>
+      </div>
+      <div class="contact-container">
+        <iframe
+          class="gmap"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d588.4733443379866!2d1.2646516762064688!3d45.83267983981112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xee2fc7ae27cdb0!2sLebeault%20Studio!5e0!3m2!1sfr!2suk!4v1633874031960!5m2!1sfr!2suk"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <div class="contact-text">
+          <h2>STUDIO LEBEAULT</h2>
+          <p>
+            1 Av. du Général de Gaulle<br />
+            Limoges 87000
+          </p>
+          <h2>HORAIRES D’OUVERTURE</h2>
+          <h3>DU MARDI AU VENDREDI:</h3>
+          <p id="horaires">9h30 - 12h00 <br />14h00 - 18h</p>
+          <h3>LE SAMEDI:</h3>
+          <p id="horaires">9h30 - 12h00 <br />14h00 - 17h</p>
+          <h2>CONTACT</h2>
+          <a class="contactreference" href="tel:05 55 33 34 63"
+            >Tel : 05 55 33 34 63</a
+          >
+          <a
+            id="mail"
+            class="contactreference"
+            href="mailto: studiolebeault@orange.fr"
+            >Email: studiolebeault@orange.fr</a
+          >
+          <a class="rdv" href="tel:05 55 33 34 63">PRENDRE RENDEZ-VOUS</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="endpage">
+      <div>
+        <ul class="menu-items">
+          <li><a href="/index.html">ACCUEIL</a></li>
+          <li><a href="/histoire.html">L'HISTOIRE</a></li>
+          <li><a href="/services.html">LES SERVICES</a></li>
+          <li><a href="/contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="legal-pages">
+        <a href="">MENTIONS LÉGALES</a>
+        <a href="">COOKIES</a>
+      </div>
+      <a class="flogo" href="/index.html"
+        ><img src="/Images/logo_phiphi.svg" alt="Footer Logo"
+      /></a>
+      <div>
+        <span> &copy;2021 - RÉALISÉ PAR S.G ET K.T </span>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>

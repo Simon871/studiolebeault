@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Studio Lebeault Limoges - L'Expert de la Photo Argentique</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav">
+      <a class="logo-nav" href="/index.html"
+        ><img src="/Images/logo_phiphi.svg" alt="Logo du Studio Lebeault"
+      /></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <div class="containernav">
+        <ul>
+          <li>
+            <a class="links" href="/index.html">ACCUEIL</a>
+          </li>
+          <li>
+            <a class="links" href="/histoire.html">L'HISTOIRE</a>
+          </li>
+          <li>
+            <a class="links" href="/services.html">LES SERVICES</a>
+          </li>
+          <li>
+            <a class="links" href="/contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-services">
+      <div class="services-hero-container">
+        <h1>STUDIO LEBEAULT</h1>
+        <h2>Les services</h2>
+      </div>
+    </section>
+
+    <!-- Accordion (Only On Mobiles)-->
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-item-header">LAB' ARGENTIQUE</div>
+        <div class="accordion-item-body">
+          <div class="accordion-item-body-content labo-argentique-grid">
+            <img src="/Images/laboratoire_argentique.png" alt="" />
+            <div class="labo-argentique-text">
+              <p class="argentique-text">
+                Spécialiste de l'argentique depuis 30 ans, je vous accompagne
+                dans tous vos projets de développement de photos argentique.
+                Chacun de vos souvenir est unique, je vous offre une opportunité
+                de les rendre réel.
+              </p>
+              <h3 id="pellicules-argentique">PELLICULES</h3>
+              <div class="italic-container">
+                <p>
+                  135 <br />
+                  120 <br />126
+                </p>
+                <p id="format-mobile">
+                  <em
+                    >* Les formats possibles sont : <br />
+                    10x15, 13x18, 15x21, 15x23,<br />
+                    18x24, 20x30, 30x45cm...<br />
+                  </em>
+                </p>
+              </div>
+              <div class="film-numerisation-container">
+                <div class="films">
+                  <h3 id="film-title-mobile">FILMS</h3>
+                  <p>
+                    Argentique <br />
+                    Noir et Blanc <br />
+                    Couleur
+                  </p>
+                </div>
+                <div class="numérisations">
+                  <h3 id="num-title-mobile">NUMÉRISATIONS</h3>
+                  <p id="num-text-mobile">
+                    De vos pellicules <br />135, 120 et 126<br />
+                    en format JPEG
+                  </p>
+                </div>
+              </div>
+              <button class="mobile-labo-arg-button">
+                <a href="">DÉVELOPPER MES PELLICULES</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-item-header">LAB' PHOTO</div>
+        <div class="accordion-item-body">
+          <div class="accordion-item-body-content labo-photo-grid">
+            <img src="/Images/Laboratoire_photos.png" alt="" />
+            <div class="lab-photo-text-container">
+              <p>
+                Vos photos, anciennes ou récentes, méritent la même attention,
+                c'est pourquoi je vous accompagne dans tous vos projets de
+                restauration ou de retouches photos.
+              </p>
+              <h3 id="restau-mobile">RESTAURATION D'ANCIENNES PHOTOS</h3>
+              <h3 id="repro-mobile">REPRODUCTION</h3>
+              <h3 id="retouche-mobile">RETOUCHES PHOTOS</h3>
+              <button class="mobile-labo-photo-button">
+                <a href="">SE RENDRE AU STUDIO</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-item-header">PHOTOS D'IDENTITÉS</div>
+        <div class="accordion-item-body">
+          <div class="accordion-item-body-content identites-grid">
+            <img
+              id="identite-mobile"
+              src="/Images/photoidentite_icone.png"
+              alt=""
+            />
+            <div class="identite-mobile-text-container">
+              <p>
+                En conséquence des normes maintenant appliquées aux photos
+                d'identités, beaucoup d'entre elles se voient être refusées par
+                les administrations. Je ne souhaite pas que les votre le soit,
+                toutes vos photos d'identités (adultes, enfants et bébés), sont
+                parfaitement conformes aux normes en vigueur, et développées
+                dans la journée. <br />
+                <br />
+                Il en va de même pour les photos d'identités classiques : CV ou
+                autres documents officiels.
+              </p>
+              <button class="identite-mobile-button">
+                <a href="">CONTACTEZ-MOI</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-item-header">PORTRAITS ET MARIAGES</div>
+        <div class="accordion-item-body">
+          <div class="accordion-item-body-content portraits-mariages-grid">
+            <div class="portraits-title-mobile-container">
+              <h3>PORTRAIT INDIVIDUEL</h3>
+              <h3>SÉANCE EN DUO</h3>
+              <h3>MARIAGES / ÉVENEMENTS</h3>
+            </div>
+            <div class="portraits-text-mobile-container">
+              <p>
+                Votre histoire est unique. Votre personnalité l'est aussi. En
+                tant que photographe, je cherche à capturer de manière
+                authentique votre personnalité. <br />
+                <br />
+                Je vous accompagne dans tous vos projets de portraits
+                individuels, en duo, photos de mariages, naissances.
+              </p>
+              <button class="portraits-mobile-button">
+                <a href="">RÉSERVER VOTRE SÉANCE PHOTO</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Labo Argentique-->
+    <section id="labo-argentique" class="labo-services">
+      <div class="labo-container">
+        <img
+          class="rolleifleix"
+          src="/Images/laboratoire_argentique.png"
+          alt=""
+        />
+        <div class="labo-text-container">
+          <h1>LABORATOIRE</h1>
+          <h2>Argentique</h2>
+          <hr class="l-line" />
+          <p class="l-text">
+            Spécialiste de l'argentique depuis plus de 30 ans, je vous
+            accompagne dans tous vos projets de développement de photos
+            argentique. Chacune de vos prises de vues sont uniques, je vous
+            offre un service adapté pour les rendre réelles selon vos envies.
+          </p>
+          <div class="pellicules-container">
+            <div class="pellicules">
+              <h3>PELLICULES</h3>
+              <p>
+                135 <br />
+                120 <br />126
+              </p>
+            </div>
+            <div class="films">
+              <h3>FILMS</h3>
+              <p>
+                Argentique <br />
+                Noir et Blanc <br />
+                Couleur
+              </p>
+            </div>
+            <div class="numérisations">
+              <h3>NUMÉRISATIONS</h3>
+              <p>
+                De vos pellicules <br />135, 120 et 126 en <br />
+                format JPEG
+              </p>
+            </div>
+          </div>
+          <p class="italic">
+            <em
+              >* Les formats possibles <br />
+              sont : 10x15, 13x18, 15x21,<br />
+              15x23, 18x24, 20x30,<br />
+              30x45cm...</em
+            >
+          </p>
+          <p class="l-last-text">
+            VOS PELLICULES REGORGENT
+            <span class="newred">DE SOUVENIRS D'UNE VALEUR INESTIMABLE,</span
+            ><br />
+            TOUT TIRAGE ARGENTIQUE EST EFFECTUÉ
+            <span class="newred">SUR PLACE EN 24H MAXIMUM.</span>
+          </p>
+          <button class="b-pellicules">
+            <a href="tel:05 55 33 34 63">DÉVELOPPER MES PELLICULES</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Labo Photos-->
+    <section class="labo-photos">
+      <div class="labo-photo-container">
+        <div class="labo-photo-text">
+          <hr class="la-line" />
+          <h1>LABORATOIRE</h1>
+          <h2>Photos</h2>
+          <p class="labop-firstp">
+            Vos photos, anciennes ou récentes, méritent la même attention, c'est
+            pourquoi je vous accompagne dans tous vos projets de restaurations
+            ou de retouches photos.
+          </p>
+          <p class="labop-secondp">
+            RESTAURATION D'ANCIENNES PHOTOS - REPRODUCTION - RETOUCHES PHOTOS
+          </p>
+          <img class="l-quote1" src="/Images/quote1.png" alt="" />
+          <p class="labop-thirdp">
+            Apportez-moi vos photos directement au Studio, nous les rendrons
+            ensuite imperméable au temps.
+          </p>
+          <div class="labo-smallcircles"></div>
+          <button class="labo-photo-button">
+            <a href="/contact.html">SE RENDRE AU STUDIO</a>
+          </button>
+        </div>
+        <img
+          class="labo-photo-image"
+          src="/Images/Laboratoire_photos.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <div class="photographe-pro-container">
+      <h1>VOTRE PHOTOGRAPHE</h1>
+      <h2>Professionnel</h2>
+      <hr class="photo-pro-line" />
+    </div>
+    <div id="photo-identite" class="identite-container">
+      <img class="identite-img" src="/Images/photoidentite_icone.png" alt="" />
+      <div class="identite-text-container">
+        <h1>Vos</h1>
+        <h2>PHOTOS D'IDENTITÉS</h2>
+        <p>
+          En conséquence des normes maintenant appliquées aux photos
+          d'identités, beaucoup d'entre elles se voient être refusée par les
+          administrations. Je ne souhaite pas que les votres le soit, toutes vos
+          photos d'identités (adultes, enfants et bébés), sont parfaitement
+          conformes aux normes en vigueur, et développées dans la journée.
+          <br /><br />
+          Il en va de même pour les photos d'identités classiques : Curriculum
+          Vitae ou autres documents officiels.
+          <br />
+          <br />
+          Pour plus d'informations :
+        </p>
+        <button class="photo-pro-button">
+          <a href="tel:05 55 33 34 63">CONTACTEZ-MOI</a>
+        </button>
+      </div>
+    </div>
+
+    <section id="portrait" class="portraits-section">
+      <div class="portraits-text-container">
+        <h1>Immortaliser l'instant présent,</h1>
+        <h2>AVEC DES PORTRAITS HORS DU TEMPS</h2>
+        <p>
+          Votre histoire est unique. Votre personalité l'est aussi. En tant que
+          photographe, je recherche à la capturer de manière authentique. <br />
+          <br />
+          Nous avons tous besoin et également envie de sentir sur nous un regard
+          bienveillant. <br />
+          Je vous accompagne dans tous vos projets de portraits individuels, en
+          duo, photos de mariages, naissances, évènements...
+        </p>
+        <div class="portrait-img-container">
+          <img
+            class="portrait-img"
+            src="/Images/StudioLebault_Galerie_9.png"
+            alt=""
+          />
+          <img
+            class="portrait-img"
+            src="/Images/StudioLebault_Galerie_4.png"
+            alt=""
+          />
+          <img
+            class="portrait-img"
+            src="/Images/StudioLebault_Galerie_10.png"
+            alt=""
+          />
+        </div>
+        <span class="newred pro-span1">SÉANCES EN DUO</span>
+        <span class="newred pro-span2">PORTRAIT <br />INDIVIDUEL</span>
+        <span class="newred pro-span3">MARIAGES / <br />ÉVÈNEMENTS</span>
+        <div class="photo-smallcircles"></div>
+      </div>
+      <button class="photo-portrait-button">
+        <a href="tel:05 55 33 34 63">RÉSERVER VOTRE SÉANCE PHOTO</a>
+      </button>
+    </section>
+
+    <!-- Contact -->
+
+    <!-- Mobile Only -->
+
+    <section class="contact-section-mobile-service">
+      <div class="mobile-contact-service">
+        <h2>CONTACTEZ MOI</h2>
+      </div>
+      <div class="service-mobile-contact-container">
+        <iframe
+          class="gmap"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d588.4733443379866!2d1.2646516762064688!3d45.83267983981112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xee2fc7ae27cdb0!2sLebeault%20Studio!5e0!3m2!1sfr!2suk!4v1633874031960!5m2!1sfr!2suk"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <div class="contact-text">
+          <h2>STUDIO LEBEAULT</h2>
+          <p>
+            1 Av. du Général de Gaulle<br />
+            Limoges 87000
+          </p>
+          <h2>HORAIRES D’OUVERTURE</h2>
+          <h3>DU MARDI AU VENDREDI:</h3>
+          <p id="horaires">9h30 - 12h00 <br />14h00 - 18h</p>
+          <h3>LE SAMEDI:</h3>
+          <p id="horaires">9h30 - 12h00 <br />14h00 - 17h</p>
+          <h2>CONTACT</h2>
+          <a class="contactreference" href="tel:05 55 33 34 63"
+            >Tel : 05 55 33 34 63</a
+          >
+          <a
+            id="mail"
+            class="contactreference"
+            href="mailto: studiolebeault@orange.fr"
+            >Email: studiolebeault@orange.fr</a
+          >
+          <a class="rdv" href="tel:05 55 33 34 63">PRENDRE RENDEZ-VOUS</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="endpage">
+      <div>
+        <ul class="menu-items">
+          <li><a href="/index.html">ACCUEIL</a></li>
+          <li><a href="/histoire.html">L'HISTOIRE</a></li>
+          <li><a href="/services.html">LES SERVICES</a></li>
+          <li><a href="/contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="legal-pages">
+        <a href="">MENTIONS LÉGALES</a>
+        <a href="">COOKIES</a>
+      </div>
+      <a class="flogo" href="/index.html"
+        ><img src="/Images/logo_phiphi.svg" alt="Footer Logo"
+      /></a>
+      <div>
+        <span> &copy;2021 - RÉALISÉ PAR S.G ET K.T </span>
+      </div>
+    </footer>
+
+    <script src="/script2.js"></script>
+  </body>
+</html>
